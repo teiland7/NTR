@@ -1,3 +1,3 @@
-# NETFLIX TRAILER RATING
+## NETFLIX TRAILER RATING
 
-## A Web app that lets user view movie trailer from different genre using HTML CSS and JavaScript
+### A Web app that lets users view movie trailers from different genre created with HTML CSS and JavaScript

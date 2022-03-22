@@ -1,0 +1,223 @@
+/* adding a wrapper to use a image as backgroud */
+.layout-wrapper {
+  background-image: url(https://www.teahub.io/photos/full/220-2205714_get-the-latest-movies-data-src-kodi-tv.jpg);
+  min-height: 900px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* creating a sign-up card for a form */
+.sign-up-card {
+  background-color: rgba(0, 0, 0, 0.849);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0px 0px 0px 90px;
+  min-height: 660px;
+  padding-bottom: 40px;
+  padding-left: 68px;
+  padding-right: 68px;
+  padding-top: 60px;
+  width: 450px;
+  min-width: 380px;
+  border: 1px solid black;
+}
+
+/* container for the content at the footer */
+.footer-container {
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: rgb(117, 117, 117);
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  border: 1px solid black;
+}
+
+/* add a card to contain my footer content */
+.footer-card {
+  margin: auto;
+  min-width: 70%;
+  min-height: 90%;
+}
+
+.question-content {
+  margin: 20px;
+}
+
+.faq-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: white;
+}
+
+.logo-content {
+  padding: 30px;
+  background-color: transparent;
+}
+
+.a-tag {
+  color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+
+.form-fill {
+  background-color: #333;
+  border: none;
+  margin: 12px 0px;
+  font-size: 16px;
+  padding: 12px;
+}
+
+/* adding a sign in button */
+.btn-red {
+  background-color: rgb(229, 9, 20);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  margin-bottom: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 26px;
+  max-width: 100%;
+  min-height: 37px;
+  min-width: 98px;
+  padding: 16px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  width: 314px;
+  outline: none;
+  border: none;
+}
+
+.lang-opt {
+  width: 130px;
+  height: 50px;
+  border-radius: 1px;
+  outline: none;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: rgb(117, 117, 117);
+  border-color: rgb(117, 117, 117);
+  margin: 10px;
+  text-decoration: none;
+}
+
+.lang-margin {
+  margin: 40px 10px;
+}
+
+.btn-red:hover {
+  background-color: rgb(229, 9, 20);
+}
+
+.lower-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #b3b3b3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-font {
+  font-size: 13px;
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+.login-text {
+  display: flex;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.text-content {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.white {
+  color: white;
+}
+
+.white:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+}
+
+.a-tag:hover {
+  text-decoration: underline;
+  color: rgb(117, 117, 117);
+}
+
+.lang-opt:visited {
+  outline: none;
+}
+
+#netflix-logo {
+  font-size: 32px;
+  color: red;
+  max-width: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 5px;
+}
+
+/* adding a media query for responsiveness */
+@media screen and (max-width: 576px) {
+  #netflix-logo {
+    display: none;
+   
+  }
+
+  .center-items {
+    justify-content: flex-end;
+  }
+
+  .sign-up-card {
+    border: none;
+  }
+}

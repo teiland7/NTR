@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-containers {
+  display: flex;
+  margin: 80px;
+  min-width: 70%;
+  flex-direction: column;
+}
+
+.logo-content {
+  margin: 20px;
+}
+
+/* container for the user img */
+.pfp-content {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.center-text {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  outline: rgb(235, 10, 10) 1px solid;
+  border-radius: 2px;
+}
+
+/* adding style to the web logo */
+#netflix-logo {
+  color: red;
+  max-width: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
+  text-align: center;
+}
+
+/* adding a media query for responsiveness */
+@media screen and (max-width: 576px) {
+  #netflix-logo {
+    display: none;
+  }
+
+  img {
+    width: 115px;
+    height: 115px;
+  }
+
+  .card-containers {
+    min-width: 100%;
+  }
+}

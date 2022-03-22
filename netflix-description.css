@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-flex-row {
+    flex-direction: row;
+}
+
+main {
+    padding-top: 72px;
+    min-height: 640px;
+    background: #f0f2f5;
+}
+.container {
+    margin: 0 auto;
+    padding: 10px 0;
+    position: relative;
+    width: 980px;
+    padding-bottom: 112px;
+}
+
+.card-container {
+    padding: 0 3px;
+}
+
+h1 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    line-height: 32px;
+    width: 500px;
+    align-content: center;
+    padding: 0 500px;
+    margin-top: 16px;
+}
+
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    line-height: 32px;
+    width: 500px;
+    align-content: center;
+    padding: 0 0 20px;
+    margin-top: 16px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.description {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.fa {
+    padding: 0 100px;
+}

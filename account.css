@@ -1,0 +1,21 @@
+* {
+}
+
+.container{
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.account-form {
+    text-align: center;
+}
+
+.account-header{
+    color: #ffff;
+}
+
+.footer {
+    text-align: center;
+}

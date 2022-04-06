@@ -1,0 +1,182 @@
+* {
+  box-sizing:border-box;
+  border-color:red;}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the other images by default */
+.no-show {
+  display: none;
+}
+
+#netflix-logo {
+  color: red;
+  max-width: 200px;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 0px;
+  font-size: 1.75rem;
+}
+
+#return {
+  padding-top: 15px;
+  padding-left: 50px;
+  color: red;
+  text-decoration: underline;
+  max-width: 200px;
+  font-weight: normal;
+  font-family: "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex-row {
+  flex-direction: row;
+}
+
+.prev-arrow {
+  width: 40px;
+}
+
+.next-arrow {
+  padding-left: 15px;
+  width: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+  padding-bottom: 112px;
+}
+
+.card-container {
+  padding: 0 30px;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 32px;
+  width: 500px;
+  align-content: center;
+  margin-top: 16px;
+}
+
+.title {
+  color: red;
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.description {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: wheat;
+}
+
+iframe {
+  color: red;
+}
+
+.thumbs {
+  padding: 0 224px;
+}
+
+button {
+  background-color: red;
+  font-size: 30px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: wheat;
+  position: absolute;
+}
+
+.fa {
+  font-size: 40px;
+  color:red;
+  padding-left: 50px;
+}
+
+i {
+  font-size: 40px;
+  color:red;
+  padding-left: 50px;
+}
+
+a {
+  font-size: 40px;
+  color:red;
+  padding-left: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a gray background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(218, 238, 216, 0.349);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: wheat;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

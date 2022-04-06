@@ -31,19 +31,21 @@
             <!--adding a form to take user input-->
             <form>
               <input
+              id = "userName" required="required"
                 class="form-control form-control-lg form-fill"
-                type="text"
+                type="email"
                 placeholder="Email or Phone Number"
                 aria-label=".form-control-lg example"
               />
               <input
+              id="passWord" required="required" pattern="[A-Za-z0-9]{1,20}"
                 class="form-control form-control-lg form-fill"
-                type="text"
+                type="password"
                 placeholder="Password"
               />
-              <button type="button" class="btn btn-primary btn-red">
+              <a id="Sign-btn" type="button" class="btn btn-primary btn-red" href="login.html">
                 Sign In
-              </button>
+              </a>
             </form>
             <div class="lower-content text-font">
               <div class="form-check">
@@ -98,5 +100,6 @@
         </div>
       </div>
     </div>
+    <script src="login.js"></script>
   </body>
 </html>

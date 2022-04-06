@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+
+  }
+
+
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+a:hover{
+    border: red solid 2px;
+    border-radius: 5px;
+}
+
+h1{
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer;
+
+}
+
+h2{
+    color: red;
+    font-size: 40px;
+}
+
+.genre-content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+h3{
+    color: red;
+}
+
+
+
+#netflix-logo {
+    color: red;
+    max-width: 200px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+  }

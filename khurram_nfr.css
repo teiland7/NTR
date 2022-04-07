@@ -27,8 +27,8 @@ html{
 }
 
 .logo-section a img{
-    width: 30em;
-    height: 5rem;
+    width: 50em;
+    height: 9rem;
     cursor: pointer;
 }
 
@@ -74,16 +74,16 @@ html{
   background-size: cover;
 }
 
-.memberDiv .btn:nth-child(1) {
-    background-image: url("C:/Users/MyPC/Desktop/khurram_netflixrating/user1.png");
+.memberDiv .btn:nth-child(1n) {
+    background-image: url("https://i.pinimg.com/originals/61/54/76/61547625e01d8daf941aae3ffb37f653.png");
   }
   
-  .memberDiv .btn:nth-child(2) {
-    background-image: url("C:/Users/MyPC/Desktop/khurram_netflixrating/user2.png");
+  .memberDiv .btn:nth-child(2n) {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png");
   }
   
-  .memberDiv .btn:nth-child(3) {
-    background-image: url("C:/Users/MyPC/Desktop/khurram_netflixrating/user3.png");
+  .memberDiv .btn:nth-child(3n) {
+    background-image: url("https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg");
   }
   
   .memberDiv .btn:hover {
@@ -120,18 +120,3 @@ html{
   opacity: 1;
 }
 
-.manageProfile {
-  border: 1px solid grey;
-  color: grey;
-  text-transform: uppercase;
-  padding: 0.8rem 2.6rem;
-  letter-spacing: 0.5rem;
-  font-size: 2.5rem;
-  margin-top: 12rem;
-  background-color: transparent;
-  cursor: pointer;
-}
-.manageProfile:hover {
-  border: 1px solid #fff;
-  color: #fff;
-}

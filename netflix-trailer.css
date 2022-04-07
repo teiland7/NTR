@@ -33,13 +33,15 @@ body {
 
 #return {
   padding-top: 15px;
-  padding-left: 50px;
+  padding-left: 30px;
   color: red;
   text-decoration: underline;
   max-width: 200px;
   font-weight: normal;
   font-family: "Lucida Sans", Arial, sans-serif;
   font-size: medium;
+  text-align: start;
+
 }
 
 .container-flex {

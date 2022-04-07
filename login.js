@@ -16,7 +16,7 @@ button.addEventListener('click',function(event){
         
     } else {
         link.setAttribute("href",
-        "index.html");
+        "khurram_nfr.html");
         console.log("working");
     }
 

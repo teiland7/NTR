@@ -73,6 +73,14 @@ html{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#netflix-logo {
+  font-size: 32px;
+  color: red;
+  max-width: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
 
 .memberDiv .btn:nth-child(1n) {
     background-image: url("https://i.pinimg.com/originals/61/54/76/61547625e01d8daf941aae3ffb37f653.png");

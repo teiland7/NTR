@@ -197,6 +197,10 @@ h2 {
   color: rgb(117, 117, 117);
 }
 
+.btn-red:active{
+  color: red;
+}
+
 .lang-opt:visited {
   outline: none;
 }

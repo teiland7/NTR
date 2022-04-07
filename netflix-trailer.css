@@ -29,19 +29,37 @@ body {
   text-align: center;
   margin: 0px;
   font-size: 1.75rem;
+  padding-bottom: 10px;
+}
+
+.genre-name {
+  align-content: center;
+}
+
+#genre {
+  color:red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  margin: 0 365px;
+  text-shadow: 2px 2px wheat;
+}
+
+.return-btn {
+  width: 245px;
+  padding-top: 15px;
 }
 
 #return {
   padding-top: 15px;
-  padding-left: 30px;
+  padding-left: 50px;
   color: red;
   text-decoration: underline;
   max-width: 200px;
   font-weight: normal;
   font-family: "Lucida Sans", Arial, sans-serif;
-  font-size: medium;
-  text-align: start;
-
+  font-size: 20px;
 }
 
 .container-flex {
@@ -66,7 +84,7 @@ body {
   margin: 0 auto;
   padding: 10px 0;
   position: relative;
-  padding-bottom: 112px;
+  padding-bottom: 20px;
 }
 
 .card-container {
@@ -109,6 +127,13 @@ button {
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   color: wheat;
   position: absolute;
+}
+
+#btn-rate:hover {
+  background-color: red;
+  border-color: wheat;
+  border-width: 4px;
+  cursor: pointer;
 }
 
 .fa {

@@ -1,0 +1,60 @@
+[{
+    "id": 1,
+    "title": "The Batman",
+    "rating": 75,
+    },
+  {
+    "id": 2,
+    "title": "Spider-Man: Homecoming",
+    "rating": 86,
+    },
+  {
+    "id": 3,
+    "title": "The Hunger Games",
+    "rating": 91,
+    },
+  {
+    "id": 4,
+    "title": "Scary Movie",
+    "rating": 46,
+    },
+  {
+    "id": 5,
+    "title": "Bridesmaids",
+    "rating": 89,
+    },
+  {
+    "id": 6,
+    "title": "Pitch Perfect",
+    "rating": 94,
+    },
+ {
+    "id": 7,
+    "title": "Get Out",
+    "rating": 100,
+    },
+  {
+    "id": 8,
+    "title": "The Conjuring",
+    "rating": 68,
+    },
+  {
+    "id": 9,
+    "title": "It",
+    "rating": 88,
+    },
+  {
+    "id": 10,
+    "title": "Jujutsu Kaisen 0",
+    "rating": 72,
+    },
+  {
+    "id": 11,
+    "title": "SHIROBAKO The Movie",
+    "rating": 53,
+    },
+  {
+    "id": 12,
+    "title": "Bright: Samurai Soul",
+    "rating": 40,
+  }]

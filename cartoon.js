@@ -45,8 +45,11 @@ function filterByName() {
     }else {
         return cartoons;
     }
-    console.log({searchInput});
-    console.log(filteredArray);
+    if(filteredArray.length != 0){
+     return filteredArray;
+    }
+    const notFound = {title: "Not Available", genre: ["Search Another Movie"], image: "https://media.istockphoto.com/vectors/page-not-found-error-with-film-flap-design-vector-id1265221960?k=20&m=1265221960&s=170667a&w=0&h=jCITUlo5a7s5fue3XrX2WB8FOK9VnbaWeLCHB8Ovj-c=" };
+    filteredArray.push(notFound);
     return filteredArray;
 }
 

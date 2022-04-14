@@ -115,8 +115,6 @@ h3 {
   border: none;
 }
 
-
-
 .lang-opt {
   width: 130px;
   height: 50px;
@@ -197,7 +195,7 @@ h2 {
   color: rgb(117, 117, 117);
 }
 
-.btn-red:active{
+.btn-red:active {
   color: red;
 }
 
@@ -215,13 +213,10 @@ h2 {
   margin: 10px;
 }
 
-
-
 /* adding a media query for responsiveness */
 @media screen and (max-width: 576px) {
   #netflix-logo {
     display: none;
-   
   }
 
   .center-items {

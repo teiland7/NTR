@@ -61,19 +61,18 @@ h3 {
   margin: 0px;
 }
 
-
 .return-btn {
-    width: 375px;
-    padding-top: 15px;
-  }
-  
-  #return {
-    padding-top: 15px;
-    padding-left: 50px;
-    color: red;
-    text-decoration: underline;
-    max-width: 270px;
-    font-weight: normal;
-    font-family: "Lucida Sans", Arial, sans-serif;
-    font-size: 20px;
-  }
+  width: 375px;
+  padding-top: 15px;
+}
+
+#return {
+  padding-top: 15px;
+  padding-left: 50px;
+  color: red;
+  text-decoration: underline;
+  max-width: 270px;
+  font-weight: normal;
+  font-family: "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}

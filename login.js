@@ -12,7 +12,7 @@ button.addEventListener('click',function(event){
     if(userName!=users || pass != passWord){
         alert("Incorrect Password or Email");
         link.setAttribute("href",
-        "login.html");
+        "index.html");
         
     } else {
         link.setAttribute("href",

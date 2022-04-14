@@ -1,4 +1,4 @@
-const APIPath = "https://raw.githubusercontent.com/Tiemoue/new_project/main/content.json";
+const APIPath = "https://raw.githubusercontent.com/Tiemoue/NTR/master/database.json";
 const numberOfResults = 3;
 const cartoonGrid = document.querySelector('#cartoon-grid');
 const searchBtn = document.querySelector('#btn-search');
@@ -6,7 +6,7 @@ const selectBtn = document.querySelector('#genre-option');
 const genreValue = document.querySelector('#genre-option').value;
 let cartoons = [];
 
-fetch("https://raw.githubusercontent.com/Tiemoue/new_project/main/content.json")
+fetch("https://raw.githubusercontent.com/Tiemoue/NTR/master/database.json")
     .then(response => response.json())
     .then((data) => {
         cartoons = data;

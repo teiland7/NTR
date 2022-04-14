@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+
+.bl{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+
+}
+
+h2{
+    max-width: 200px;
+    color: red;
+  
+}
+
+.search-bar{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.search-btn{
+    background-color: red;
+    color: black;
+    font-size: large;
+    outline: none;
+    border: none;
+}
+
+.search-btn:hover{
+    background-color: red;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+
+.return-btn {
+    width: 245px;
+   
+  }
+  
+  #return {
+    color: red;
+    text-decoration: underline;
+    max-width: 200px;
+    font-weight: normal;
+    font-family: "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+  }

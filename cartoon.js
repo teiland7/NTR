@@ -56,7 +56,7 @@ function filterByName() {
 function filterByGenre() {
     const searchInput = document.querySelector('#genre-option').value;
     let filteredArray = [];
-    if (searchInput === "Genre") {
+    if (searchInput === "Select A Genre") {
         return cartoons;
     }
     if(searchInput && searchInput.length){
